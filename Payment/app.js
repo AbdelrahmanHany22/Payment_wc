@@ -11,7 +11,7 @@ const xss = require('xss-clean');
 const globalErrorHandler = require('./controllers/errorController');
 const AppError = require('./utils/appError');
 
-const stripeRouter = require('./Routes/stripeRoutes')
+const stripeRouter = require('./routes/stripeRoutes')
 
 const app = express();
 app.use(express.json());
